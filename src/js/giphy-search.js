@@ -2,7 +2,7 @@ export default class GiphySearch {
   static getSearch(search) {
     return new Promise(function(resolve, reject) {
       let request = new XMLHttpRequest();
-      const searchURL = `https://api.giphy.com/v1/gifs/search?api_key=${process.env.API_KEY}&q=${search}&limit=1&offset=0&rating=g&lang=en`;
+      const searchURL = `https://api.giphy.com/v1/gifs/search?api_key=${process.env.API_KEY}&q=${search}&limit=5&offset=0&rating=r&lang=en`;
       request.onload = function() {
         if (this.status === 200) {
           resolve(request.response);

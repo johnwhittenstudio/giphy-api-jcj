@@ -16,7 +16,7 @@ $('#gifSearch').click(function() {
   let promise = GiphySearch.getSearch(search);
   promise.then(function(response){
     const body = JSON.parse(response);
-    let downSizedGif1 = body.data[0].images.downsized.url;
-    $('#imageToShow').attr("src", downSizedGif1);
+    let originalGif = body.data[0].images.original.url;
+    $('#imageToShow').attr("src", originalGif);
   });
 });
