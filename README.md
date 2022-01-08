@@ -7,7 +7,6 @@
 #### _This is a web-based application wherein the user can enter a keyword and have GIFs returned from GIPHY._
 
 ## Technologies Used
-
 - _Babel 7.6.4_
 - _Bootstrap 5.1.3_
 - _CSS_
@@ -32,7 +31,6 @@
 ## Project Title: GIPHY API Search
 
 ## API Key Procurement:
-
 - _This application uses the GIPHY-API. You will need to make an account and get an API key if you wish to recreate the project environment on your local. The "Free Plan" allows for 2000 API calls per month.
 
 - _Visit the [GIPHY Developers](https://developers.giphy.com/docs/api/) site._
@@ -42,7 +40,6 @@
 - _Click the "Create an App" button._
 
 ## Project Setup/Installation Instructions:
-
 - _Open the terminal on your local computer._
 
 - _Navigate to the parent directory of your preference._
@@ -71,7 +68,6 @@
 - _Update package.json, line 8 to: "start": "npm run build & webpack-dev-server --open --mode development"_
 
 ## Known Bugs
-
 - _Only displays 1 GIF, although the search limit in the giphy-search.js is set to a limit of 5._
 
 - _There are no validation checks on the user's input._
@@ -79,9 +75,7 @@
 - _There is no CSS styling._
 
 ## License
-
 [MIT License](https://opensource.org/licenses/MIT) Published _**2022**_ _**John Whitten, Cesar Lopez, and Jonathan Declid**_
 
 ## Contact Information
-
 _If you encounter any issues with this site, please contact John Whitten at [johnwhitten.studio@gmail.com](mailto:johnwhitten.studio@gmail.com), (NEED CESAR AND JONATHAN's EMAIL)_
