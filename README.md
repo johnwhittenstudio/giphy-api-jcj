@@ -72,7 +72,7 @@
 
 ## License
 
-[MIT License](https://opensource.org/licenses/MIT) Published _**2022**_ _**John Whitten, Cesar Lopez, and Jonathan Declid**__
+[MIT License](https://opensource.org/licenses/MIT) Published _**2022**_ _**John Whitten, Cesar Lopez, and Jonathan Declid**_
 
 ## Contact Information
 
