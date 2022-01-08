@@ -1,45 +1,79 @@
-# _{Application name here}_
+# GIPHY API Search
 
-#### By _**{List of contributors}**_
+## by _**John Whitten, Cesar Lopez, and Jonathan Declid**_
 
-#### _{Brief description of application}_
+### _January 8, 2022_
 
-## Github Pages Link
-
-[TITLE HERE Github Pages](https://patrick-dolan.github.io/APPLICATIONNAMEHERE/)
+#### _This is a web-based application wherein the user can enter a keyword and have GIFs returned from GIPHY._
 
 ## Technologies Used
 
-* _HTML_
-* _CSS & Bootstrap_
-* _Javascript & jQuery_
+- _Babel 7.6.4_
+- _Bootstrap 5.1.3_
+- _CSS_
+- _css-loader 3.2.0_
+- _eslint 6.3.0_
+- _eslint-loader 3.0.0_
+- _file-loader 1.1.6_
+- _html-loader 0.5.5_
+- _HTML_
+- _package-json_
+- _Javascript_
+- _Jest 24.9.0_
+- _JQuery 3.6.0_
+- _Node.js_
+- _Node Package Manager 6.14.9_
+- _popper.js 1.16.1_
+- _style-loader 1.0.0_
+- _webpack 4.39.3_
+- _webpack-cli 3.3.8_
+- _webpack-dev-server 3.8.0_
 
-## Description
+## Project Title: GIPHY API Search
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+## API Key Procurement:
 
-## Setup/Installation Requirements
+- _This application uses the GIPHY-API. You will need to make an account and get an API key if you wish to recreate the project environment on your local. The "Free Plan" allows for 2000 API calls per month.
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+- _Visit the [GIPHY Developers](https://developers.giphy.com/docs/api/) site._
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+- _If you are new to GIPHY, click Log In in the top right and create a new user account. You'll be prompted to create an account with your email, first name and a password. Agree to the terms of use, click "Get Started!" and confirm your email address. Access your account dashboard that includes your API key as well as your remaining API calls for the month._
+
+- _Click the "Create an App" button._
+
+## Project Setup/Installation Instructions:
+
+- _Open the terminal on your local computer._
+
+- _Navigate to the parent directory of your preference._
+
+- _Clone this project using ```$ git clone https://github.com/johnwhittenstudio/giphy-api-jcj```_
+
+- _Navigate to the top level of the directory with the command ```$ cd giphy-api-jcj```_
+
+- _Make sure you have installed [Node js](https://nodejs.org/en/)_
+
+- _Run command ``` $ npm install``` to install all dependencies._
+
+- _Create file for storing environmental variables you want to keep secret (such as an API key) ``` $ touch .env```_
+
+- _Add the following line of code to the .env file API_KEY=insert-your-API-key-here where you substitute the API key you got by following the instructions above for the "insert-your-API-key-here". The following is an example using a fake API key: API_KEY=1234567890_
+
+- _Run the command ```$ npm run build```_
+
+- _Run the command ```$ npm run test``` to check the test pass._
+
+- _Run the command ```$ npm run start``` to launch on a browser._
+
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
-
-## Contact Me
-
-_Let me know if you run into any issues or have questions, ideas or concerns:_
-_[Author Email Here]_
+- None.
 
 ## License
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+[MIT License](https://opensource.org/licenses/MIT) Published _**2021**_ _**John Whitten**_
 
-Copyright (c) _date_ _author name(s)_
+## Contact Information
+
+_If you encounter any issues with this site, please contact John Whitten at [johnwhitten.studio@gmail.com](mailto:johnwhitten.studio@gmail.com)_
