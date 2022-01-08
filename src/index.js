@@ -1,8 +1,9 @@
-import $ from "jquery";
+import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
-import GiphyService from './js/giphy-service.js'
+import GiphySearch from './js/giphy-search.js';
+
 
 function clearFields(){
   $('#search').val("");
@@ -12,10 +13,10 @@ function clearFields(){
 $('#gifSearch').click(function() {
   let search = $('#search').val();
   clearFields();
-  let promise = WeatherService.getSearch(search);
-  promise.then(function(response) {
+  let promise = GiphySearch.getSearch(search);
+  promise.then(function(response){
     const body = JSON.parse(response);
-    let originalGif = body.data[0].images.original.url;
-    $('.imageToShow').attr("src", originalGif);
+    let downSizedGif1 = body.data[0].images.downsized.url;
+    $('#imageToShow').attr("src", downSizedGif1);
   });
 });
