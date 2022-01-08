@@ -72,8 +72,8 @@
 
 ## License
 
-[MIT License](https://opensource.org/licenses/MIT) Published _**2021**_ _**John Whitten**_
+[MIT License](https://opensource.org/licenses/MIT) Published _**2022**_ _**John Whitten, Cesar Lopez, and Jonathan Declid**__
 
 ## Contact Information
 
-_If you encounter any issues with this site, please contact John Whitten at [johnwhitten.studio@gmail.com](mailto:johnwhitten.studio@gmail.com)_
+_If you encounter any issues with this site, please contact John Whitten at [johnwhitten.studio@gmail.com](mailto:johnwhitten.studio@gmail.com), (NEED CESAR AND JONATHAN's EMAIL)_
