@@ -68,7 +68,7 @@
 
 ## Known Bugs
 
-- None.
+- Only displays 1 GIF, although the search limit in the giphy-search.js is set to a limit of 5.
 
 ## License
 
