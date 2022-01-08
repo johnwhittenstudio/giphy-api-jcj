@@ -65,6 +65,10 @@
 
 - _Run the command ```$ npm run start``` to launch on a browser._
 
+## Additional Setup/Installation Note for Windows Users
+- _This environment was created on a Mac. For it to work properly in your local environment make the following change:_
+
+- _Update package.json, line 8 to: "start": "npm run build & webpack-dev-server --open --mode development"_
 
 ## Known Bugs
 
