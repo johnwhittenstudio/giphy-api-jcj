@@ -72,7 +72,11 @@
 
 ## Known Bugs
 
-- Only displays 1 GIF, although the search limit in the giphy-search.js is set to a limit of 5.
+- _Only displays 1 GIF, although the search limit in the giphy-search.js is set to a limit of 5._
+
+- _There are no validation checks on the user's input._
+
+- _There is no CSS styling._
 
 ## License
 
